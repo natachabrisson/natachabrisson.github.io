@@ -1,0 +1,56 @@
+h2{
+    color:blue;
+}
+li{
+    color:crimson;
+}
+/* .bleu permet d'appeler la class="bleu" 
+Une class peut etre ajoutée à plusieurs 
+éléments afin qu'ils aint tous le même style*/
+#bleu{
+    color:blue;
+}
+/* #rouge permet d'appeler le id="rouge"
+Un id est unique et ne doit se retrouver 
+que sur un seul élément d'une page
+*/
+#rouge{
+    /* color:rgb(0,255,255);*/
+    color:rgb(42, 142, 180);
+    /* 
+        L'hexadecinal est constitué des 3 couleurs primaires
+        Chaque couleur est représentée par 2 valeurs: 
+        # 00(red) 00(green) 00(blue)
+        Chaque chiffre peut aller de 0 à F ce qui représente 16 choix de valeurs
+        16*16=256 donc on est sur le même nombre de valeur 
+        qu'en RGB (de 0 à 255) soit 256 valeurs
+    */
+}
+/* Pour faire un commentaire */
+/*p{
+    color:orange;
+}
+*/
+/* * est le selecteur global. Il sélectionne tous les éléments 
+et leur donne le style indiqué */
+
+*{
+    font: size 20px;
+}
+
+div p{
+    font-size: 13px;
+}
+img{
+    width: 50%;
+    height: 400px;
+}
+#demi {
+    width: 50%;
+}
+
+img{
+width: 20%;
+height: 30%;
+
+}
